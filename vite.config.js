@@ -8,7 +8,7 @@ import react from "@vitejs/plugin-react";
   plugins: [react()],
 }); */
 
-export default defineConfig(({ command }) => {
+/* export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
     base: "/",
@@ -17,4 +17,19 @@ export default defineConfig(({ command }) => {
     config.base = "/worldwise/";
   }
   return config;
+});
+ */
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    sourcemap: true,
+  },
+  base: "/", // 确保这里设置正确
+  server: {
+    port: 5173,
+    host: true,
+  },
 });
