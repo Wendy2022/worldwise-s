@@ -20,7 +20,7 @@ import react from "@vitejs/plugin-react";
 });
  */
 
-export default defineConfig({
+/* export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist",
@@ -32,4 +32,22 @@ export default defineConfig({
     port: 5173,
     host: true,
   },
+}); */
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: "dist",
+    // 修改输出配置
+    rollupOptions: {
+      output: {
+        // 确保正确的文件类型和路径
+        entryFileNames: "assets/[name]-[hash].js",
+        chunkFileNames: "assets/[name]-[hash].js",
+        assetFileNames: "assets/[name]-[hash].[ext]",
+      },
+    },
+  },
+  // 简化 base 配置
+  base: "",
 });
