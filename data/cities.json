@@ -1,0 +1,112 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "id": "4f9e",
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-01T12:47:24.831Z",
+      "notes": "",
+      "position": {
+        "lat": "-33.33474125453956",
+        "lng": "151.2405411098152"
+      }
+    },
+    {
+      "id": "8107",
+      "cityName": "Herrera del Duque",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-10-02T02:56:19.076Z",
+      "notes": "",
+      "position": {
+        "lat": "39.185355727930634",
+        "lng": "-5.029815238703318"
+      }
+    },
+    {
+      "id": "1924",
+      "cityName": "Brezina",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2024-10-02T02:56:22.396Z",
+      "notes": "",
+      "position": {
+        "lat": "32.92374686017515",
+        "lng": "2.093515088717282"
+      }
+    },
+    {
+      "id": "2dab",
+      "cityName": "ACT Remainder - Tuggeranong",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-02T02:56:27.676Z",
+      "notes": "",
+      "position": {
+        "lat": "-35.473746807848165",
+        "lng": "149.13145472966167"
+      }
+    },
+    {
+      "id": "67a7",
+      "cityName": "Gibberagee",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-02T02:56:33.968Z",
+      "notes": "",
+      "position": {
+        "lat": "-29.361844927040785",
+        "lng": "153.06653761673314"
+      }
+    },
+    {
+      "id": "c0ad",
+      "cityName": "Villahermosa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-10-03T11:56:55.415Z",
+      "notes": "",
+      "position": {
+        "lat": "38.788346013507464",
+        "lng": "-2.8542608482701564"
+      }
+    },
+    {
+      "id": "5c73",
+      "cityName": "Bellangry",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-03T12:27:15.789Z",
+      "notes": "",
+      "position": {
+        "lat": "-31.316100981697065",
+        "lng": "152.648571794883"
+      }
+    },
+    {
+      "id": "09da",
+      "cityName": "Berrico",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-10-03T23:19:21.318Z",
+      "notes": "",
+      "position": {
+        "lat": "-32.09882724479094",
+        "lng": "151.82664006082237"
+      }
+    }
+  ]
+}
